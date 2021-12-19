@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hello {
+    position: absolute;
+    font-size: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+
+.rainydays{
+    background: #ffffff;
+    position: relative;
+    height: 100%;
+    z-index: 10;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    margin-bottom: -10vw;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+
+.orust34{
+    background: #007bda;
+    position: relative;
+    height: 100%;
+    z-index: 9;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    margin-bottom: -10vw;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.cms{
+    background: rgb(230, 214, 181);
+    position: relative;
+    height: 100%;
+    z-index: 8;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    margin-bottom: -10vw;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.about {
+    background-color: rgb(26, 26, 26);
+    position: relative;
+    height: 100%;
+    z-index: 7;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.white {
+    color: white;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.me {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.contact {
+    width: 100%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    font-size: 25px;
+}
+
+input {
+    font-size: 12pt;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+textarea {
+    font-size: 12pt;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button {
+    background-color: #008829;
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #1bff4c;
+    transition: .5s;
+}
